@@ -11,3 +11,89 @@
 .button--full{
   display: block;
 }
+
+.tripleGridContainer{
+  display: flex;
+  justify-content: space-between;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.tripleGridContainer__item{
+  width: 319px;
+  height: 199px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.image{
+  display: flex;
+  height: 100%;
+}
+
+.image img{
+  min-width: 100%;
+}
+
+.image__gradient{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  border-radius: 10px;
+}
+
+.image__gradient--red{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.44) 0%, #F44E4E 100%);
+}
+
+.image__gradient--blue{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.44) 0%, #4C6DE1 100%);
+
+}
+
+.image__gradient--green{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.44) 0%, #41A545 100%);
+}
+
+.date__Month{
+  position: absolute;
+  left: 23px;
+  right: 130px;
+  top: 151px;
+  bottom: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.btn__Vector{
+  position: absolute;
+  left: 81.82%;
+  right: 6.9%;
+  top: 71.86%;
+  bottom: 10.05%;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  background-image: url(./img/Vector.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.link a{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
