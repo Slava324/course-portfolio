@@ -15,7 +15,6 @@
 .tripleGridContainer{
   display: flex;
   justify-content: space-between;
-  width: 1080px;
   margin: 0 auto;
 }
 
