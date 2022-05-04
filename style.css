@@ -20,7 +20,6 @@
 
 .tripleGridContainer__item{
   width: 319px;
-  height: 199px;
   border-radius: 10px;
   position: relative;
 }
@@ -31,7 +30,8 @@
 }
 
 .image img{
-  min-width: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .image__gradient{
@@ -59,8 +59,6 @@
 .image__date{
   position: absolute;
   left: 23px;
-  right: 130px;
-  top: 151px;
   bottom: 20px;
   font-style: normal;
   font-weight: 700;
@@ -71,10 +69,8 @@
 
 .btn{
   position: absolute;
-  left: 81.82%;
-  right: 6.9%;
-  top: 71.86%;
-  bottom: 10.05%;
+  right: 22px;
+  bottom: 20px;
   width: 36px;
   height: 36px;
   border-radius: 50%;
